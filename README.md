@@ -10,51 +10,20 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 1. [ ]  Required: Setup 
-  * [ ]  Required: Download and install Burp
-  * [ ]  Required: Configure your browser to direct traffic through Burp
-  * [ ]  Required: Can successfully view HTTPS traffic in sa
-  * [ ]  Required: Register an account at security.shephard.com
+  -  [ ]  Download and install Burp
+  -  [ ]  Configure your browser to direct traffic through Burp
+  -  [ ]  Can successfully view HTTPS traffic in sa
+  -  [ ]  Register an account at security.shephard.com
   
-2. [ ]  Required: Challenge 1 - HTTP Headers
-  * [ ]  Required: It has required text inputs.sss
-  * [ ]  Required: It submits to itself.
-  * [ ]  Required: It looks correct in a browser.
-  
-3. [ ]  Required: Detect when the form is submitted.
-  * [ ]  Required: When page loads, page displays the form.
-  * [ ]  Required: When form submits, page retrieves the form data.
-
-4. [ ]  Required: Validate form data.
-  * [ ]  Required: Require the provided validation functions library.
-  * [ ]  Required: Validate the presence of all form values.
-  * [ ]  Required: Validate that no values are longer than 255 characters.
-  * [ ]  Required: Validate that first\_name and last\_name have at least 2 characters.
-  * [ ]  Required: Validate that username has at least 8 characters.
-  * [ ]  Required: Validate that email contains a "@".
-
-5. [ ]  Required: Display form errors if any validations fail.
-  * [ ]  Required: Do not submit the data to the database.
-  * [ ]  Required: Redisplay the form with the submitted values filled in.
-  * [ ]  Required: Report all errors as a list above the form.
-  * [ ]  Required: Test each field to ensure you get the expected errors.
-
-6. [ ]  Required: Submit successfully-validated form values to the database.
-  * [ ]  Required: Write an SQL insert statement.
-  * [ ]  Required: Add current date and time to "created\_at".
-  * [ ]  Required: Follow best practices regarding the query result and database connection.
-  * [ ]  Required: Use the command line to check the records.
-
-7. [ ]  Required: Redirect the user to a confirmation page.
-    * [ ]  Required: Locate the page "public/registration\_success.php".
-    * [ ]  Required: Redirect the user to the new page. ([Tips](#!hints))
-
-8. [ ]  Required: Sanitize all dynamic output for HTML. ([Tips](#!hints))
-
+1. [ ]  Required: Challenge 1 - HTTP Headers
+1. [ ]  Required: Challenge 2 - Basic Routes 1
+1. [ ]  Required: Challenge 3 - Query Params 1
+1. [ ]  Required: Challenge 4 - Insecure Direct Object References (IDOR)
+1. [ ]  Required: Challenge 5 - IDOR Challenge 1
 
 The following advanced user stories are optional:
 
 * [ ]  Bonus 1: IDOR Challenge 2 
-
 * [ ]  Bonus 2: IDOR Bank Challenge 3
 
 ## Video Walkthrough
@@ -67,11 +36,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Took me a while to figure out how to work with Burp and understand what it was doing. But after that, it was fun seeing behind the scenes of the web! 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Anisha Gupta]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
