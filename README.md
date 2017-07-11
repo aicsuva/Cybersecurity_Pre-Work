@@ -10,10 +10,10 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 1. [ ]  Required: Setup 
-  -  [ ]  Download and install Burp
-  -  [ ]  Configure your browser to direct traffic through Burp
-  -  [ ]  Can successfully view HTTPS traffic in sa
-  -  [ ]  Register an account at security.shephard.com
+    -  [ ]  Download and install Burp
+    -  [ ]  Configure your browser to direct traffic through Burp
+    -  [ ]  Can successfully view HTTPS traffic in sa
+    -  [ ]  Register an account at security.shephard.com
   
 1. [ ]  Required: Challenge 1 - HTTP Headers
 1. [ ]  Required: Challenge 2 - Basic Routes 1
